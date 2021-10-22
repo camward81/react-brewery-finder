@@ -5,11 +5,14 @@ import { motion } from "framer-motion";
 import { fadeInRight } from "../animation";
 
 const Nav = ({ input, breweryInput, searchBrewery }) => {
+  const pageRefresh = () => {
+    return document.location.reload();
+  };
   return (
     <StyledNav variants={fadeInRight} initial="hidden" animate="show">
       <StyledLogo>
         <img src={beer} alt="beer" />
-        <h1>Brewery Finder</h1>
+        <h1 onClick={pageRefresh}>Brewery Finder</h1>
       </StyledLogo>
       <StyledInput>
         <form>
@@ -47,6 +50,7 @@ const StyledLogo = styled.div`
   h1 {
     font-size: 3rem;
     text-transform: uppercase;
+    cursor: pointer;
   }
   @media (max-width: 900px) {
     img {
