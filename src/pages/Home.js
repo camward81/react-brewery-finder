@@ -79,12 +79,11 @@ const Home = () => {
 };
 
 const StyledHome = styled.div`
-  height: 140vh;
+  height: 150vh;
   background: url(${factory});
   background-size: cover;
   background-blend-mode: overlay;
   background-color: rgba(19, 33, 58, 0.884);
-  overflow-x: hidden;
 `;
 
 export default Home;
