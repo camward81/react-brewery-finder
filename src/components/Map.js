@@ -4,11 +4,11 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import styled from "styled-components";
 //Animation
 import { motion } from "framer-motion";
-import { fadeInRight } from "../animation";
+import { slideUp } from "../animation";
 
 const Map = ({ brewery, map }) => {
   return (
-    <StyledMap variants={fadeInRight} initial="hidden" animate="show">
+    <StyledMap variants={slideUp} initial="hidden" animate="show">
       <MapContainer
         center={[40, -98]}
         zoom={3}

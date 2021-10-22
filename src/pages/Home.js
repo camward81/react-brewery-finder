@@ -84,6 +84,7 @@ const StyledHome = styled.div`
   background-size: cover;
   background-blend-mode: overlay;
   background-color: rgba(19, 33, 58, 0.884);
+  overflow-y: hidden;
 `;
 
 export default Home;

@@ -7,7 +7,7 @@ export const fadeInRight = {
     opacity: 1,
     x: 0,
     transition: {
-      duration: 2,
+      duration: 1,
     },
   },
   exit: {
@@ -19,16 +19,16 @@ export const fadeInRight = {
   },
 };
 
-export const fadeInLeft = {
+export const slideUp = {
   hidden: {
     opacity: 0,
-    x: 600,
+    y: 600,
   },
   show: {
     opacity: 1,
-    x: 0,
+    y: 0,
     transition: {
-      duration: 1,
+      duration: 2,
     },
   },
 };

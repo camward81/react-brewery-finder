@@ -2,11 +2,11 @@ import React from "react";
 import beer from "../img/beer.svg";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import { fadeInLeft } from "../animation";
+import { fadeInRight } from "../animation";
 
 const Nav = ({ input, breweryInput, searchBrewery }) => {
   return (
-    <StyledNav variants={fadeInLeft} initial="hidden" animate="show">
+    <StyledNav variants={fadeInRight} initial="hidden" animate="show">
       <StyledLogo>
         <img src={beer} alt="beer" />
         <h1>Brewery Finder</h1>

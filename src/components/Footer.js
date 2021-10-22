@@ -1,9 +1,11 @@
 import React from "react";
 import styled from "styled-components";
+import { motion } from "framer-motion";
+import { slideUp } from "../animation";
 
 const Footer = () => {
   return (
-    <StyledFooter>
+    <StyledFooter variants={slideUp} initial="hidden" animate="show">
       <h3>
         Powered by{" "}
         <a
@@ -18,7 +20,7 @@ const Footer = () => {
   );
 };
 
-const StyledFooter = styled.div`
+const StyledFooter = styled(motion.div)`
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 2rem;

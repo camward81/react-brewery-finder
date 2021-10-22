@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 //Animation
 import { motion } from "framer-motion";
-import { fadeInRight } from "../animation";
+import { slideUp } from "../animation";
 
 const BrewInfo = ({ brewery }) => {
   const addPhoneDash = (num) => {
@@ -31,7 +31,7 @@ const BrewInfo = ({ brewery }) => {
   };
 
   return (
-    <StyledBrewInfo variants={fadeInRight} initial="hidden" animate="show">
+    <StyledBrewInfo variants={slideUp} initial="hidden" animate="show">
       <div>
         <h2>{brewery.name ? brewery.name : ""}</h2>
       </div>
