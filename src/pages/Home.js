@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Nav from "../components/Nav";
 import BrewInfo from "../components/BrewInfo";
 import Map from "../components/Map";
+import Footer from "../components/Footer";
 //Styles
 import styled from "styled-components";
 //Images
@@ -72,6 +73,7 @@ const Home = () => {
       />
       {brewery && <BrewInfo brewery={brewery} />}
       <Map brewery={brewery} map={map} />
+      <Footer />
     </StyledHome>
   );
 };
