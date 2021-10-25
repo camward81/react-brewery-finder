@@ -12,7 +12,7 @@ const Nav = ({ input, breweryInput, searchBrewery }) => {
     <StyledNav variants={fadeInRight} initial="hidden" animate="show">
       <StyledLogo>
         <img src={beer} alt="beer" />
-        <h1 onClick={pageRefresh}>Brewery Finder</h1>
+        <h1 onClick={pageRefresh}>Brewery Info</h1>
       </StyledLogo>
       <StyledInput>
         <form>
