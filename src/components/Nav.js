@@ -102,6 +102,9 @@ const StyledInput = styled.div`
     input {
       font-size: 0.8rem;
     }
+    button {
+      font-size: 0.8rem;
+    }
   } ;
 `;
 
