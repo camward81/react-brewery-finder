@@ -98,6 +98,11 @@ const StyledInput = styled.div`
       color: #ffbb27ea;
     }
   }
+  @media (max-width: 375px) {
+    input {
+      font-size: 0.8rem;
+    }
+  } ;
 `;
 
 export default Nav;
