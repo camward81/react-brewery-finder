@@ -70,9 +70,8 @@ const StyledLogo = styled.div`
   }
   @media (max-width: 375px) {
     img {
-      height: 1rem;
-      width: 1rem;
-      padding-top: 1rem;
+      height: 1.3rem;
+      width: 1.3rem;
     }
     h1 {
       font-size: 1.3rem;
