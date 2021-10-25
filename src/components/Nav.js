@@ -72,6 +72,7 @@ const StyledLogo = styled.div`
     img {
       height: 1rem;
       width: 1rem;
+      padding-top: 1rem;
     }
     h1 {
       font-size: 1.3rem;
