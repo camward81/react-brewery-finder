@@ -42,7 +42,7 @@ const StyledMap = styled(motion.div)`
     margin-left: -20rem;
   }
   @media (max-width: 600px) {
-    margin-left: -26.8rem;
+    margin-left: -24rem;
   }
 `;
 

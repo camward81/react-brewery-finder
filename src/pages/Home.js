@@ -79,7 +79,7 @@ const Home = () => {
 };
 
 const StyledHome = styled.div`
-  height: 150vh;
+  min-height: 150vh;
   background: url(${factory});
   background-size: cover;
   background-blend-mode: overlay;

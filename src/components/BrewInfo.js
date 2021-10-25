@@ -92,6 +92,9 @@ const StyledBrewInfo = styled(motion.div)`
   @media (max-width: 600px) {
     margin-left: 1rem;
     margin-right: 1rem;
+    h2 {
+      font-size: 1.3rem;
+    }
   }
 `;
 
