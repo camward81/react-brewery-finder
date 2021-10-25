@@ -37,6 +37,10 @@ const StyledNav = styled(motion.div)`
   align-items: center;
   padding: 1rem;
   color: whitesmoke;
+  @media (max-width: 375px) {
+    display: flex;
+    flex-direction: column;
+  } ;
 `;
 
 const StyledLogo = styled.div`
@@ -65,9 +69,6 @@ const StyledLogo = styled.div`
     padding-right: 2rem;
   }
   @media (max-width: 375px) {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
     img {
       height: 1rem;
       width: 1rem;
