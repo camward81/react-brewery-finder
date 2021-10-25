@@ -64,6 +64,15 @@ const StyledLogo = styled.div`
   @media (max-width: 700px) {
     padding-right: 2rem;
   }
+  @media (max-width: 375px) {
+    img {
+      height: 1rem;
+      width: 1rem;
+    }
+    h1 {
+      font-size: 1.3rem;
+    }
+  } ;
 `;
 
 const StyledInput = styled.div`
