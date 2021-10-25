@@ -66,6 +66,7 @@ const StyledLogo = styled.div`
   }
   @media (max-width: 375px) {
     flex-direction: column;
+    padding: 1rem;
     img {
       height: 1rem;
       width: 1rem;
