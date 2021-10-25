@@ -96,6 +96,11 @@ const StyledBrewInfo = styled(motion.div)`
       font-size: 1.3rem;
     }
   }
+  @media (max-width: 375px) {
+    h2 {
+      font-size: 1rem;
+    }
+  }
 `;
 
 export default BrewInfo;
