@@ -97,8 +97,7 @@ const StyledBrewInfo = styled(motion.div)`
     }
   }
   @media (max-width: 375px) {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    padding: 1rem;
     h2 {
       font-size: 1rem;
     }
