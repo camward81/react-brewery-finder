@@ -44,6 +44,9 @@ const StyledMap = styled(motion.div)`
   @media (max-width: 600px) {
     margin-left: -24rem;
   }
+  @media (max-width: 375px) {
+    margin-left: -27rem;
+  }
 `;
 
 export default Map;
