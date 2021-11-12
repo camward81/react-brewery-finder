@@ -1,5 +1,7 @@
 import React from "react";
+//Styles
 import styled from "styled-components";
+//Animation
 import { motion } from "framer-motion";
 import { slideUp } from "../animation";
 

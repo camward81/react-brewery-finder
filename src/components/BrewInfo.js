@@ -1,10 +1,12 @@
 import React from "react";
+//Styles
 import styled from "styled-components";
 //Animation
 import { motion } from "framer-motion";
 import { slideUp } from "../animation";
 
 const BrewInfo = ({ brewery }) => {
+  //Add dashes to phone numbers
   const addPhoneDash = (num) => {
     const splitNum = num.split("");
     const addDash = splitNum
@@ -13,6 +15,7 @@ const BrewInfo = ({ brewery }) => {
     return addDash;
   };
 
+  //Shorten web address
   const simplifyURL = (site) => {
     const splitURL = site.split("/");
     const remove = splitURL

@@ -1,4 +1,5 @@
 import React from "react";
+//Leaflet
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 //Styles
 import styled from "styled-components";
