@@ -19,7 +19,7 @@ const Home = () => {
 
   useEffect(() => {
     axios
-      .get("https://api.openbrewerydb.org/breweries/search?query=dragoon")
+      .get("https://api.openbrewerydb.org/breweries?by_name=dragoon")
       .then((data) => {
         setBrewery(data.data[0]);
         console.log(data.data[0]);
@@ -35,7 +35,7 @@ const Home = () => {
   const searchBrewery = (e) => {
     e.preventDefault();
     axios
-      .get(`https://api.openbrewerydb.org/breweries/search?query=${input}`)
+      .get(`https://api.openbrewerydb.org/breweries?by_name=${input}`)
       .then((data) => {
         setBrewery(data.data[0]);
         if (
